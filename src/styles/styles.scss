@@ -1,0 +1,13 @@
+/*
+This file lives in the styles folder.
+All other .scss also live in this folder, or one of its subfolders
+All other .scss files are imported into this file, 
+and then this file is the only file imported into app.js
+
+This way we can access everything from all .scss files using 1 import line in app.js
+*/
+@import './base/settings';
+@import './base/base';
+
+@import './components/header';
+@import './components/body';

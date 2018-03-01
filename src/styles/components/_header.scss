@@ -1,0 +1,23 @@
+/*
+header contains all scss used in the Header Component.
+
+setting .contain's width:100% centers header on the page.
+*/
+
+.header {
+    background: $headerBackground;
+    margin-bottom: $sizeOne;
+    color: $offWhite;
+    padding: $sizeZero;
+    
+}
+
+
+.contain {
+    background: $headerBackground;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+

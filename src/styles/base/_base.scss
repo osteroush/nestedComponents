@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+html{
+    font-size: 62.5%;//effectively sets 1rem = 10 pixels, 2rem = 20px, etc
+}
+
+body {
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $sizeOne;
+    background-color: $bodyBackground ;
+}
+/*
+base contains all "root elements" settings.
+settings which are for the page on which the components lay.
+*/
